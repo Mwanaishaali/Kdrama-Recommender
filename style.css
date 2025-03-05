@@ -1,0 +1,197 @@
+*{
+    background-color: rgb(243, 248, 248);
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Girly font */
+
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+
+    width:80% ;
+    text-align: center;
+
+    margin: 5% auto;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+    border-radius: 15px;
+}
+h3{
+    font-size: 24px;
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+/* styles.css */
+
+.sub label {
+    font-size: 18px;
+    color: #ff1493; /* Deep pink color */
+    margin-bottom: 5px;
+    margin-right: 5px;
+    /*margin-right: 10px;  Add some space between the label and the combobox */
+}
+.sub select {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #ff85a2;
+    border-radius: 15px;
+    background-color: #fff0f5;
+    color: #ff1493;
+    font-size: 16px;
+    /*appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;*/
+    cursor: pointer;
+    
+}
+
+/* Container for the select to position the arrow */
+.sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   /* position: relative;
+    display: inline-b;*/
+}
+
+/* Hover effect */
+.sub select:hover {
+    background-color: #ffe4e1; /* Lighter pink on hover */
+    border-color: #ff69b4; /* Brighter pink border on hover */
+}
+
+/* Focus effect */
+.sub select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #ff69b4; /* Brighter pink border on focus */
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* Add a subtle shadow */
+}
+
+/* Style the options */
+.sub select option {
+    background-color: #fff0f5; /* Light pink background */
+    color: #ff1493; /* Deep pink text color */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Girly font */
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+
+    .sub select {
+        width: 100%;
+    }
+
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image1 {
+        max-width: 100%;
+    }
+
+    .text {
+        text-align: right;
+    }
+}
+
+
+.content{
+    margin-top: 2rem;
+    padding: 10px;
+    width: 90%;
+    background-color: #d3e5e5;
+    border-radius: 10px;
+
+}
+
+.top{ 
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    background-color: #d3e5e5;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    
+    
+}
+
+.image1{
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    padding-top: 0.5px;
+    padding-bottom: 1px;
+    border: solid white 10px;
+    border-radius: 5px;
+    width: 100%;
+    height:auto;
+    align-content:left ;
+    margin-left: 5%;
+
+}
+
+.image1 img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 0.5px;
+    align-content: left;
+}
+
+.text{
+align-content: right;
+background-color: #d3e5e5;
+margin-left: 10%;
+}
+
+.specs{
+    align-content: left;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+/*.vl {
+    border-left: 1px solid black;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+  }
+*/
+.review{
+    align-content: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+p{ text-align: left;
+    font-size: 18px;
+}
+
