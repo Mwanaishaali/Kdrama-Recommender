@@ -1,79 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>kdrama reccomendation for the community</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+    <title>K-Drama Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
 
-    <body>
-        <div class="main">
+       <!-- 🌸 Navigation Bar -->
+       <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sub">Recommendations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <h3>Only Unnie Approved Kdramas!!</h3>
-            <img src="./assets/asset1-mainIcon.jpg">
+    <!-- 🌸 Home Section -->
+    <section id="home">
+        <h1>Welcome to K-Drama Heaven! 💖</h1>
+        <p>Your go-to place for the best K-Drama recommendations!</p>
+    </section>
 
+    
 
-            <div class="sub">
-                <label for="genre">Select a genre:</label>
-                <select name="combobox" id="genre">
-                    <option value=" "> </option>
-                    <option value="work place romance">work place romance</option>
-                    <option value="medical">medical</option>
-                    <option value="historical">historical</option>
-                    <option value="zombie">zombie</option>
-                    <option value="ogre">ogre</option>
-                    <option value="romcom">romcom</option>
-                    <option value="time travel">time travel</option>
-                    <option value="action">action</option>
-                    <option value="horror">horror</option>
-                    <option value="thriller">thriller</option>
-                    <option value="comedy">comedy</option>
-                    <option value="game">game</option>
-                    <option value="fantasy">fantasy</option>
-                    <option value="slice of life">slice of life</option>
-                    <option value="friendship">friendship</option>
-                    <option value="mature">mature</option>
-                </select>
-             </div>
+    <div class="main">
+        <div class="card">
+            <h3>Top K-Drama Picks 🎬</h3>
+        <img src="assets/asset1-mainIcon.jpg" alt="Main Icon">
 
-             <div class="content">
-                <div class="top">
-                    <div class="image1"><img src="./assets/business proposal eg.jpg"></div>
-                    <div class="text">
-                    <div class="specs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quaerat cupiditate ut veniam aliquid ratione? Enim, aliquam, dicta architecto praesentium ut maiores dolores laboriosam quod eligendi, asperiores repellendus eum veniam.</p></div>
-                    <div class="vl"></div>
-                    <div class="review"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora saepe obcaecati modi dignissimos? Vitae quis voluptas dignissimos veniam praesentium voluptates aliquam nemo, odio consequuntur doloremque provident esse mollitia unde!</p></div>
-                    </div>
-
-                </div>
-
-             </div>
-
-
-
-
-
-
+        <div id="sub">
+            <label for="genre">Select a genre:</label>
+            <select id="genre" onchange="showRecommendations()">
+                <option value="">Choose a genre</option>
+                <option value="workplace romance">Workplace Romance</option>
+                <option value="medical">Medical</option>
+                <option value="historical">Historical</option>
+                <option value="zombie">Zombie</option>
+                <option value="romcom">Rom-Com</option>
+                <option value="time travel">Time Travel</option>
+                <option value="action">Action</option>
+                <option value="horror">Horror</option>
+                <option value="thriller">Pyschological Thriller</option>
+                <option value="highschool">Highschool</option>
+                <option value="comedy">Comedy</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="smalltown">Small Town</option>
+                <option value="ogre">Ogre</option>
+                <option value="revenge">Revenge</option>
+                <option value="cominofage">Coming-Of-Age</option>
+                <option value="prisoncrime">Crime</option>
+                <option value="apocalypse">Apocalypse</option>
+                <option value="game">Game</option>
+            </select>
+        </div>
         </div>
 
+        <div id="recommendations" class="content"></div>
+    </div>
 
+    
 
+        <!-- 🌸 About Section (Footer) -->
+        <footer id="about">
+            <hr>
+            <h2>About Me 💌</h2>
+            <p>Hey there! I'm Mwanaisha 😊. I've been watching K-Dramas for over 6 years now, and honestly, they’ve become a huge part of my life. K-Dramas have always been my little escape, my comfort zone, and my ultimate hobby. I love sharing my thoughts and chatting about all things K-Drama with my friends and fellow fans. Whether you're looking for a heartwarming drama to binge or just want to talk about your favorite characters, I'm here for it! Feel free to explore my recommendations, and let's bond over our love for K-Dramas! 💕</p>
 
+            <div class="socials">
+                <h3>Socials 🌎</h3>
+                    <!--<p>Follow me on:</p>-->
+                    <div class="social-icons">
+                        <a href="https://instagram.com/lastgirlstanding0" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@im_shia0" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="mailto:amwanaisha453@email.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+              
+            </div>
+        </footer>
 
-
-
-
-
-
-
-    </body>
-
-
-
-
-
-
+    <script src="script.js"></script>
+</body>
 </html>
