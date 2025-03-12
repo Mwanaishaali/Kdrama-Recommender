@@ -17,10 +17,11 @@ body {
 
 /* 🖼 Logo Styling */
 .logo {
-    height: 250px; 
+    height: 1px; 
     width: auto;
     margin-left: 20px;
     margin-top: 20px;
+    
 }
 
 /* Nav styling */
@@ -33,6 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffc0cb;
 }
 
 nav ul {
@@ -41,21 +43,26 @@ nav ul {
     justify-content: flex-end;
     padding: 0;
     margin: 0;
+    background-color: pink;
+
 }
 
 nav ul li {
     margin: 0 30px;
+    
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: blue;
+    color: black;
     transition: color 0.3s ease-in-out;
+    background-color: pink;
 }
 
 nav ul li a:hover {
-    color: #E00079;
+    color: white;
+    /*background-color: #4B0082;*/
 }
 
 /* Section styling */
@@ -65,6 +72,8 @@ section {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+
 
 /* Main styling */
 .main {
