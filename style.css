@@ -17,11 +17,11 @@ body {
 
 /* 🖼 Logo Styling */
 .logo {
-    height: 1px; 
-    width: auto;
+    max-height: 90px; 
+    max-width:auto;
     margin-left: 20px;
-    margin-top: 20px;
-    
+    margin-top: 10px;
+    background-color: #ffc0cb;
 }
 
 /* Nav styling */
@@ -273,7 +273,7 @@ hr {
 /* Media Queries */
 
 /* Mobile Devices */
-@media (max-width: 600px) {
+@media (max-width: 992px) {
     .main {
         width: 90%;
     }
@@ -288,7 +288,7 @@ hr {
     }
 
     .logo {
-        height: 150px;
+        height: 90px;
         margin-left: 10px;
     }
 
@@ -297,7 +297,7 @@ hr {
     }
 
     #recommendations, .card {
-        width: 90%;
+        width: 100%;
     }
 
     footer {
