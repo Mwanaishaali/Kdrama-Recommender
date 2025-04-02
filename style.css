@@ -288,9 +288,10 @@ hr {
         margin: 10px 0;
     }
 
-    nav ui li a{font-size: 1rem;
-        margin: 0 0.5rem;}
-
+    nav ui li a{
+        padding: 1rem 1.5rem; /* Inner spacing */
+        margin: 0 0.5rem; /* Outer spacing */
+      }
     .logo {
         height: 90px;
         margin-left: 10px;
