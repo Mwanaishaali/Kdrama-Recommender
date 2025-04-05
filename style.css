@@ -280,9 +280,9 @@ hr {
     }
 
     nav {
-        gap: 10rem;
+        flex-direction: column;
+        align-items: center;
       }
-
     nav ul {
         flex-direction: column;
         align-items: center;
