@@ -24,7 +24,7 @@ body {
     background-color: #ffc0cb;
 }
 
-/* Nav styling 
+/* Nav styling */
 nav {
     position: relative;
     width: 100%;
@@ -36,18 +36,7 @@ nav {
     align-items: center;
     background-color: #ffc0cb;
     gap: 1.5rem;
-}*/
-
-nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.5rem; /* adds spacing between items */
-        padding: 1rem;
-        font-family: 'Dancing Script', cursive; /* Keep your aesthetic font */
-        font-size: 1.2rem;
-      }
-
+}
 
 nav ul {
     list-style: none;
